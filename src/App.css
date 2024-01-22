@@ -148,7 +148,7 @@
 .playerPositionBlocker {
   position: absolute;
   top: 122px;
-  left: 33px;
+  left: 30px;
 }
 
 .bottomSection {
@@ -163,4 +163,70 @@
 .bottomSection div {
   flex: 1;
   margin: auto 1px;
+}
+
+.flag {
+  width: 30px;
+}
+
+.flagIcon {
+  width: 35px;
+  display: block;
+  margin-top: -9px;
+}
+
+.club {
+  width: 30px;
+}
+
+.clubIcon {
+  width: 25px;
+  display: block;
+  margin-top: -3px;
+}
+
+.randomButton {
+  width: 80px;
+  height: 20px;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.fade-in-shield {
+  animation: fadeIn 2s;
+}
+
+.fade-out-shield {
+  animation: fadeOut 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.pastGuesses {
+  display: block;
+}
+
+.incorrectPill {
+  background-color: rgba(189, 88, 42, 0.6);
+  color: white;
+  height: 20px;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 3px 5px;
 }
